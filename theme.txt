@@ -1,4 +1,9 @@
-#general settings
+# BSOD GRUB Theme
+# Written by Zhincore
+# Repository: https://github.com/bastakka/bsod
+
+
+# General settings
 title-color: "#3375db"
 message-font: "DejaVu Sans Regular 12"
 message-color: "#fff"
@@ -7,14 +12,14 @@ message-bg-color: "#3375db"
 terminal-font: "DejaVu Sans Regular 12"
 desktop-color: "#3375db"
 
-#sad face
+# Sad face
 + image {
 	top = 10%
 	left = 15%
 	file = "images/despacito.png"
 }
 
-#sad text
+# Sad text
 + label {
 	top = 25%
 	left = 15%
@@ -23,7 +28,7 @@ desktop-color: "#3375db"
 	font = "DejaVu Sans Bold 32"
 }
 
-#sad timeout
+# Sad timeout
 + label {
 	top = 25%+32+15
 	left = 15%
@@ -41,7 +46,7 @@ desktop-color: "#3375db"
 	text = "%% Complete"
 }
 
-#sad qr code
+# Sad QR code
 + image {
 	top = 30%+50
 	left = 15%
@@ -50,7 +55,7 @@ desktop-color: "#3375db"
 	file = "images/qr.png"
 }
 
-#sad error message
+# Sad error message
 + label {
 	top = 30%+50
 	left = 15%+128+16
@@ -66,7 +71,7 @@ desktop-color: "#3375db"
 	text = "Plz don't call the tech support"
 }
 
-#sad error code
+# Sad error code
 + label {
 	top = 30%+50+128-22
 	left = 15%+128+16
@@ -76,7 +81,7 @@ desktop-color: "#3375db"
 }
 
 
-#sad help bar at the bottom
+# Sad help bar at the bottom
 + label {
 	top = 100%-45
 	left = 0
@@ -88,7 +93,7 @@ desktop-color: "#3375db"
 	color = "#fff"
 }
 
-#sad boot menu
+# Sad boot menu
 + boot_menu {
 	left = 25%
 	width = 50%
