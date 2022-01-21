@@ -1,0 +1,108 @@
+#general settings
+title-color: "#3375db"
+message-font: "DejaVu Sans Regular 12"
+message-color: "#fff"
+message-bg-color: "#3375db"
+#terminal-box: "terminal_box_*.png"
+terminal-font: "DejaVu Sans Regular 12"
+desktop-color: "#3375db"
+
+#sad face
++ image {
+	top = 10%
+	left = 15%
+	file = "despacito.png"
+}
+
+#sad text
++ label {
+	top = 25%
+	left = 15%
+	color = "#fff"
+	text = "Your P r We're just col ifo "
+	font = "DejaVu Sans Bold 32"
+}
+
+#sad timeout
++ label {
+	top = 25%+32+15
+	left = 15%
+	width = 64
+	align = "right"
+	color = "#fff"
+	id = __timeout__
+	font = "DejaVu Sans Regular 32"
+}
++ label {
+	top = 25%+32+15
+	left = 15%+64
+	color = "#fff"
+	font = "DejaVu Sans Regular 32"
+	text = "%% Complete"
+}
+
+#sad qr code
++ image {
+	top = 30%+50
+	left = 15%
+	width = 128
+	height = 128
+	file = "qr.png"
+}
+
+#sad error message
++ label {
+	top = 30%+50
+	left = 15%+128+16
+	color = "#fff"
+	font = "DejaVu Sans Bold 22"
+	text = "For more information about the error use the QR code."
+}
++ label {
+	top = 30%+50+22+4
+	left = 15%+128+16
+	color = "#fff"
+	font = "DejaVu Sans Regular 22"
+	text = "Plz don't call the tech support"
+}
+
+#sad error code
++ label {
+	top = 30%+50+128-22
+	left = 15%+128+16
+	color = "#fff"
+	font = "DejaVu Sans Regular 14"
+	text = "Error code: MADE_BY_ZHINCORE"
+}
+
+
+#help bar at the bottom
++ label {
+	top = 100%-45
+	left = 0
+	width = 100%
+	height = 20
+	text = "@KEYMAP_LONG@"
+	align = "center"
+	font = "DejaVu Sans Regular 10"
+	color = "#fff"
+}
+
+#boot menu
++ boot_menu {
+	left = 25%
+	width = 50%
+	top = 55%
+	height = 35%
+	item_font = "DejaVu Sans Regular 22"
+	item_color = "#fff"
+	selected_item_font = "DejaVu Sans Bold 22"
+	selected_item_color= "#fff"
+	icon_height = 30
+	icon_width = 30
+	item_height = 32
+	item_padding = 8
+	item_icon_space = 16
+	item_spacing = 16
+	scrollbar = false
+}
