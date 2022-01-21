@@ -11,7 +11,7 @@ desktop-color: "#3375db"
 + image {
 	top = 10%
 	left = 15%
-	file = "despacito.png"
+	file = "images/despacito.svg"
 }
 
 #sad text
@@ -47,7 +47,7 @@ desktop-color: "#3375db"
 	left = 15%
 	width = 128
 	height = 128
-	file = "qr.png"
+	file = "images/qr.png"
 }
 
 #sad error message
@@ -76,7 +76,7 @@ desktop-color: "#3375db"
 }
 
 
-#help bar at the bottom
+#sad help bar at the bottom
 + label {
 	top = 100%-45
 	left = 0
@@ -88,7 +88,7 @@ desktop-color: "#3375db"
 	color = "#fff"
 }
 
-#boot menu
+#sad boot menu
 + boot_menu {
 	left = 25%
 	width = 50%
