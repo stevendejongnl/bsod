@@ -1,5 +1,7 @@
 # bsod
 Grub theme inspired by Windows BSOD
+
+## Preview
 ![Preview](preview.png)
 
 ## Instalation
