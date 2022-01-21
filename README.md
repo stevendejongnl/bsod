@@ -5,7 +5,7 @@ Grub theme inspired by Windows BSOD
 - Download latest release to grub themes folder
 ```
 cd /boot/grub/themes
-curl https://github.com/bastakka/bsod/releases/download/v1/bsod.tar.gz | tar xz
+curl -L https://github.com/bastakka/bsod/releases/download/v1/bsod.tar.gz | tar xz
 ```
 - Append following entry to `/etc/default/grub`
 ```
