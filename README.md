@@ -1,5 +1,6 @@
 # bsod
 Grub theme inspired by Windows BSOD
+![Preview](preview.png)
 
 ## Instalation
 - Download latest release to grub themes folder
