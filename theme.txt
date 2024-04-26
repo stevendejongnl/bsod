@@ -24,7 +24,7 @@ desktop-color: "#3375db"
 	top = 25%
 	left = 15%
 	color = "#fff"
-	text = "Your P r We're just col ifo "
+	text = "Something is definitely not wrong"
 	font = "DejaVu Sans Bold 32"
 }
 
@@ -61,14 +61,14 @@ desktop-color: "#3375db"
 	left = 15%+128+16
 	color = "#fff"
 	font = "DejaVu Sans Bold 22"
-	text = "For more information about the error use the QR code."
+	text = "This QR code is just a link to my website"
 }
 + label {
 	top = 30%+50+22+4
 	left = 15%+128+16
 	color = "#fff"
 	font = "DejaVu Sans Regular 22"
-	text = "Plz don't call the tech support"
+	text = "Select below to continue booting"
 }
 
 # Sad error code
@@ -77,7 +77,7 @@ desktop-color: "#3375db"
 	left = 15%+128+16
 	color = "#fff"
 	font = "DejaVu Sans Regular 14"
-	text = "Error code: MADE_BY_ZHINCORE"
+	text = "Error code: MADE_BY_STEVEN"
 }
 
 
